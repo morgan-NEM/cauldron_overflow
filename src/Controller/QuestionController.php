@@ -29,7 +29,7 @@ class QuestionController extends AbstractController
             'un caca',
         ];
 
-        dump();
+        dump($answers);
 
 //         Retourne obligatoirement un objet Response
         return $this->render('question/show.html.twig', [
