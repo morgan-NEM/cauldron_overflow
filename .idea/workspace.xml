@@ -11,14 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/security_checker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,16 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hucnwPwDJSpeFJp6TzyFy9YtWD" />
@@ -89,6 +101,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -111,6 +124,8 @@
       <workItem from="1600945127078" duration="2000000" />
       <workItem from="1600949771834" duration="1391000" />
       <workItem from="1600951206574" duration="1658000" />
+      <workItem from="1601300862560" duration="126000" />
+      <workItem from="1601301036674" duration="4106000" />
     </task>
     <servers />
   </component>
@@ -128,6 +143,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="chapitre 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapitre 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="56" key="#CLI_Interpreters" timestamp="1600948899193">
@@ -170,14 +190,19 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600942993206" />
-    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1600866479896">
+    <state x="332" y="32" width="615" height="735" key="find.popup" timestamp="1601303258177">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="332" y="32" width="615" height="735" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1600866479896" />
+    <state x="332" y="32" width="615" height="735" key="find.popup/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601303258177" />
     <state x="391" y="301" key="git4idea.ui.GitResetDialog" timestamp="1600866700266">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="391" y="301" key="git4idea.ui.GitResetDialog/0.0.1280.800@0.0.1280.800" timestamp="1600866700266" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601304327159">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601304327159" />
     <state x="370" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600946591405">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

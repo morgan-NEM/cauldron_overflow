@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block body%}
+<h1>{{ question }}</h1>
+
+{#commentaire#}
+<div>
+    Au final c'est ici qu'on va écrire la question !
+</div>
+
+<h2>
+    Réponse:
+</h2>
+{#    <form>#}
+{#        {% for answer in answers %}#}
+{#            <input type="radio" id="{{ answer }}" name="reponse" value="{{ answer }}">#}
+{#            <label for="{{ answer }}"> {{ answer }} </label><br>#}
+{#        {% endfor %}#}
+{#    <button type="submit">Valider</button>#}
+{{  random(answers)  }}
+</form>
+{% endblock %}

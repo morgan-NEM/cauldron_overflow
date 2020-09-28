@@ -8,4 +8,5 @@
 /src/.preload.php
 /var/
 /vendor/
-###< symfony/framework-bundle ###
+###< symfony/framework-bundle ###:x
+
