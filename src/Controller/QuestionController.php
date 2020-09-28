@@ -29,6 +29,9 @@ class QuestionController extends AbstractController
             'un caca',
         ];
 
+        dump();
+
+//         Retourne obligatoirement un objet Response
         return $this->render('question/show.html.twig', [
             'question' => ucwords(str_replace('-', ' ',  $any)),
             'answers' => $answers
