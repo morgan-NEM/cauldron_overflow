@@ -11,19 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/deprecations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/magic-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tisha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CommentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/homepage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/images/magic-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/images/tisha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +106,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hucnwPwDJSpeFJp6TzyFy9YtWD" />
@@ -113,10 +122,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +150,8 @@
       <workItem from="1600949771834" duration="1391000" />
       <workItem from="1600951206574" duration="1658000" />
       <workItem from="1601300862560" duration="126000" />
-      <workItem from="1601301036674" duration="5515000" />
+      <workItem from="1601301036674" duration="5834000" />
+      <workItem from="1601641326705" duration="3108000" />
     </task>
     <servers />
   </component>
@@ -175,10 +193,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="477" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1600867493929" />
-    <state x="313" y="133" key="NewPhpClassDialog" timestamp="1600950225062">
+    <state x="313" y="133" key="NewPhpClassDialog" timestamp="1601646043239">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="313" y="133" key="NewPhpClassDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600950225062" />
+    <state x="313" y="133" key="NewPhpClassDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601646043239" />
     <state x="442" y="330" key="NewPhpFileDialog" timestamp="1600950161086">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -188,10 +206,10 @@
     </state>
     <state x="398" y="127" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1600866658495" />
     <state x="398" y="127" key="RollbackChangesDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600952175859" />
-    <state x="262" y="0" key="SettingsEditor" timestamp="1600951729419">
+    <state x="262" y="0" key="SettingsEditor" timestamp="1601644121424">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="262" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600951729419" />
+    <state x="262" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601644121424" />
     <state x="1673" y="23" key="SettingsEditor/1280.23.1920.1057/0.0.1280.732@0.0.1280.732" timestamp="1600945400438" />
     <state x="262" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1600949852308" />
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1600942993206">
