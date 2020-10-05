@@ -11,25 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/magic-photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tisha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/homepage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/images/magic-photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/images/tisha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/question_show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
@@ -151,7 +136,8 @@
       <workItem from="1600951206574" duration="1658000" />
       <workItem from="1601300862560" duration="126000" />
       <workItem from="1601301036674" duration="5834000" />
-      <workItem from="1601641326705" duration="3108000" />
+      <workItem from="1601641326705" duration="3662000" />
+      <workItem from="1601899616171" duration="3311000" />
     </task>
     <servers />
   </component>
