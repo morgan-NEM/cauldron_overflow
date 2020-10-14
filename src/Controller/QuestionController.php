@@ -46,7 +46,7 @@ class QuestionController extends AbstractController
             return $markdownParser->transformMarkdown($questionText);
         });
 
-        dd($markdownParser);
+        dump($cache);
 
 //         Retourne obligatoirement un objet Response
         return $this->render('question/show.html.twig', [
