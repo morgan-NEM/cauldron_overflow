@@ -38,12 +38,15 @@ class QuestionController extends AbstractController
             'Alors là...',
             'un `caca`',
         ];
+
+
         $questionText = "Qu'est-ce *qui* est **petit** et **marron**?";
         $parsedQuestionTest = $cache->get('markdown_'.md5($questionText), function () use ($questionText, $markdownParser
         ){
             return $markdownParser->transformMarkdown($questionText);
         });
 
+        dd($markdownParser);
 
 //         Retourne obligatoirement un objet Response
         return $this->render('question/show.html.twig', [
@@ -51,5 +54,6 @@ class QuestionController extends AbstractController
             'questionText' => $parsedQuestionTest,
             'answers' => $answers
         ]);
+
     }
 }
