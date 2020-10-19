@@ -11,8 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/services_dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/MarkdownHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +143,8 @@
       <workItem from="1601641326705" duration="3662000" />
       <workItem from="1601899616171" duration="7209000" />
       <workItem from="1602675972939" duration="7771000" />
-      <workItem from="1602688078736" duration="835000" />
+      <workItem from="1602688078736" duration="1195000" />
+      <workItem from="1603112569478" duration="6971000" />
     </task>
     <servers />
   </component>
@@ -191,14 +196,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="477" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1600867493929" />
-    <state x="313" y="133" key="NewPhpClassDialog" timestamp="1601646043239">
+    <state x="313" y="133" key="NewPhpClassDialog" timestamp="1603113749008">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="313" y="133" key="NewPhpClassDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601646043239" />
-    <state x="442" y="330" key="NewPhpFileDialog" timestamp="1600950161086">
+    <state x="313" y="133" key="NewPhpClassDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603113749008" />
+    <state x="442" y="330" key="NewPhpFileDialog" timestamp="1603113721155">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="442" y="330" key="NewPhpFileDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600950161086" />
+    <state x="442" y="330" key="NewPhpFileDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603113721155" />
     <state x="398" y="127" key="RollbackChangesDialog" timestamp="1600952175859">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -227,6 +232,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="391" y="301" key="git4idea.ui.GitResetDialog/0.0.1280.800@0.0.1280.800" timestamp="1600866700266" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1603117034971">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603117034971" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601304327159">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

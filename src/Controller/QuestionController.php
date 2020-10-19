@@ -4,11 +4,10 @@
 namespace App\Controller;
 
 
-use Knp\Bundle\MarkdownBundle\MarkdownParserInterface;
+use App\Service\MarkdownHelper;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Contracts\Cache\CacheInterface;
 use Twig\Environment;
 
 class QuestionController extends AbstractController
@@ -31,7 +30,7 @@ class QuestionController extends AbstractController
     /**
      * @Route("/questions/{any}", name="app_question_show")
      */
-    public function show($any, MarkdownParserInterface $markdownParser, CacheInterface $cache)
+    public function show($any, MarkdownHelper $markdownHelper)
     {
         $answers = [
             'un marron',
@@ -41,12 +40,9 @@ class QuestionController extends AbstractController
 
 
         $questionText = "Qu'est-ce *qui* est **petit** et **marron**?";
-        $parsedQuestionTest = $cache->get('markdown_'.md5($questionText), function () use ($questionText, $markdownParser
-        ){
-            return $markdownParser->transformMarkdown($questionText);
-        });
 
-        dump($cache);
+
+        $parsedQuestionTest = $markdownHelper->parse($questionText);
 
 //         Retourne obligatoirement un objet Response
         return $this->render('question/show.html.twig', [
