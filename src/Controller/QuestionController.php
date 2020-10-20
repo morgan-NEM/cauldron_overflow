@@ -44,17 +44,12 @@ class QuestionController extends AbstractController
      */
     public function show($any, MarkdownHelper $markdownHelper)
     {
-
-
         $answers = [
             'un marron',
             'Alors là...',
             'un `caca`',
         ];
-
-
         $questionText = "Qu'est-ce *qui* est **petit** et **marron**?";
-
 
         $parsedQuestionTest = $markdownHelper->parse($questionText);
 
