@@ -42,12 +42,8 @@ class QuestionController extends AbstractController
     /**
      * @Route("/questions/{any}", name="app_question_show")
      */
-    public function show($any, MarkdownHelper $markdownHelper, HubInterface $sentryHub)
+    public function show($any, MarkdownHelper $markdownHelper)
     {
-        dump($sentryHub);
-        if($this->isDebug){
-            $this->logger->info('we are in debug mode');
-        }
 
 
         $answers = [
