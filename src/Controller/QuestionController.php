@@ -5,6 +5,8 @@ namespace App\Controller;
 
 
 use App\Service\MarkdownHelper;
+use Psr\Log\LoggerInterface;
+use Sentry\State\HubInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -12,6 +14,16 @@ use Twig\Environment;
 
 class QuestionController extends AbstractController
 {
+    private $logger;
+    private $isDebug;
+
+    public function __construct(LoggerInterface $logger, bool $isDebug)
+    {
+
+        $this->logger = $logger;
+        $this->isDebug = $isDebug;
+    }
+
     /**
      * @Route("/", name="app_accueil")
      */
@@ -30,8 +42,14 @@ class QuestionController extends AbstractController
     /**
      * @Route("/questions/{any}", name="app_question_show")
      */
-    public function show($any, MarkdownHelper $markdownHelper)
+    public function show($any, MarkdownHelper $markdownHelper, HubInterface $sentryHub)
     {
+        dump($sentryHub);
+        if($this->isDebug){
+            $this->logger->info('we are in debug mode');
+        }
+
+
         $answers = [
             'un marron',
             'Alors là...',
