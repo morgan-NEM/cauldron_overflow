@@ -11,11 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.decrypt.private.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/secrets/dev/dev.encrypt.public.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/RandomAnswerCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Twig/MarkdownExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/secrets/dev/dev.SENTRY_DSN.25b27f.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/secrets/dev/dev.SENTRY_DSN.25b27f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +119,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hucnwPwDJSpeFJp6TzyFy9YtWD" />
@@ -163,7 +171,8 @@
       <workItem from="1602675972939" duration="7771000" />
       <workItem from="1602688078736" duration="1195000" />
       <workItem from="1603112569478" duration="7722000" />
-      <workItem from="1603197974251" duration="5794000" />
+      <workItem from="1603197974251" duration="6095000" />
+      <workItem from="1603204847517" duration="2039000" />
     </task>
     <servers />
   </component>
@@ -210,6 +219,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603200950742" />
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603204788741">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="143" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603204788741" />
     <state x="495" y="234" width="499" height="249" key="ComposerInitDialogKey" timestamp="1600944288499">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
