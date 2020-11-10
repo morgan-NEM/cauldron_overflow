@@ -11,17 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="511d9c60-c9d3-4c0f-a3cf-38400c7d60fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201110141050.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201110141513.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cauldron_overflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/QuestionRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/homepage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/question/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/question/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +145,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-time-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hucnwPwDJSpeFJp6TzyFy9YtWD" />
@@ -190,7 +198,8 @@
       <workItem from="1603112569478" duration="7722000" />
       <workItem from="1603197974251" duration="6095000" />
       <workItem from="1603204847517" duration="2932000" />
-      <workItem from="1603804947194" duration="3441000" />
+      <workItem from="1603804947194" duration="3758000" />
+      <workItem from="1605017156879" duration="5631000" />
     </task>
     <servers />
   </component>
@@ -263,10 +272,10 @@
     </state>
     <state x="398" y="127" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1600866658495" />
     <state x="398" y="127" key="RollbackChangesDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1600952175859" />
-    <state x="262" y="0" key="SettingsEditor" timestamp="1601904801753">
+    <state x="262" y="0" key="SettingsEditor" timestamp="1605023475529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="262" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601904801753" />
+    <state x="262" y="0" key="SettingsEditor/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1605023475529" />
     <state x="1673" y="23" key="SettingsEditor/1280.23.1920.1057/0.0.1280.732@0.0.1280.732" timestamp="1600945400438" />
     <state x="262" y="0" key="SettingsEditor/1280.23.1920.1057/0.0.1280.800@0.0.1280.800" timestamp="1600949852308" />
     <state x="432" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602682916418">
@@ -294,10 +303,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="479" y="186" key="refactoring.ChangeSignatureDialog/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1603200223636" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1601304327159">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605023257967">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1601304327159" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/1280.0.1920.1080/0.0.1280.800@0.0.1280.800" timestamp="1605023257967" />
     <state x="370" y="319" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600946591405">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

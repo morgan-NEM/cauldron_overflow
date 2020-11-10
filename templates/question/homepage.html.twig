@@ -14,7 +14,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
+            {% for question in questions %}
+            <div class="col-12 mb-3">
                 <div style="box-shadow: 2px 3px 9px 4px rgba(0,0,0,0.04);">
                     <div class="q-container p-4">
                         <div class="row">
@@ -26,22 +27,23 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <a class="q-title" href="{{ path('app_question_show', { any: 'reversing-a-spell'}) }}"><h2>Reversing a Spell</h2></a>
+                                <a class="q-title" href="{{ path('app_question_show', { any: question.slug}) }}"><h2>{{ question.name }}</h2></a>
                                 <div class="q-display p-3">
                                     <i class="fa fa-quote-left mr-3"></i>
-                                    <p class="d-inline">I've been turned into a cat, any thoughts on how to turn back? While I'm adorable, I don't really care for cat food.</p>
+                                    <p class="d-inline">{{ question.question|parse_markdown }}</p>
                                     <p class="pt-4"><strong>--Tisha</strong></p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a class="answer-link" href="{{ path('app_question_show', { any: 'reversing-a-spell'}) }}" style="color: #fff;">
+                    <a class="answer-link" href="{{ path('app_question_show', { any: question.slug}) }}" style="color: #fff;">
                         <p class="q-display-response text-center p-3">
                             <i class="fa fa-magic magic-wand"></i> 6 answers
                         </p>
                     </a>
                 </div>
             </div>
+            {% endfor %}
 
             <div class="col-12 mt-3">
                 <div class="q-container p-4">
